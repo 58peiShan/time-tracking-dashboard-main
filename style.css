@@ -18,6 +18,11 @@ h1 {
   font-size: 18px;
   font-weight: 500;
 }
+h3{
+font-size: 48px;
+font-weight: 100;
+margin-bottom: 0;
+}
 p {
   opacity: 0.5;
 }
@@ -35,6 +40,7 @@ ul li {
   color: white;
 }
 .card{
+  cursor: default;
   position: relative;
   width: 100%;
   border-radius: 15px;
@@ -50,6 +56,11 @@ ul li {
   width: inherit;
   bottom: 0;
   background:var(--DarkBlue);
+}
+
+.d-flex{
+  display: flex;
+  justify-content: space-between;
 }
 .info {
   padding: 0;
